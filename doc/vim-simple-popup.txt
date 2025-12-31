@@ -91,10 +91,10 @@ Mappings for internal Vim lists and command outputs:
     nnoremap <leader>reg <cmd>PopupEx registers<cr>
     
     " View Command-line history
-    nnoremap <leader>reg <cmd>PopupExTail history<cr>
+    nnoremap <leader>history <cmd>PopupExTail history<cr>
     
     " View undolist
-    nnoremap <leader>reg <cmd>PopupExTail undolist<cr>
+    nnoremap <leader>undo <cmd>PopupExTail undolist<cr>
     
     " Interactive jump list
     nnoremap <leader>jumps <cmd>PopupJumps<cr>
